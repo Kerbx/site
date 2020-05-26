@@ -1,0 +1,57 @@
+body {
+    background: #000000;
+    color: white;
+
+}
+#header {
+
+    width: 1000px;
+    height: 50px;
+    background-color: #151719;
+
+}
+
+s.texts{
+    font-family: monospace;
+    color: #FFFFFF;
+    font-size: large;
+}
+
+h1.text1{
+    font-family: monospace;
+    color: #FFFFFF;
+    font-size: x-large;
+}
+
+h3.text3 {
+
+    font-family: monospace;
+    color: #FFFFFF;
+    font-size: x-large;
+}
+
+h3.text31 {
+    font-family: monospace;
+    color: #ADA9EA;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+h4.text4 {
+
+    font-family: monospace;
+    color: #FFFFFF;
+    font-size: x-large;
+}
+
+a.text:active,
+a.text {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+p.textp {
+    font-family: monospace;
+    color: #FFFFFF;
+    font-size: x-large;
+}
