@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <div class="page-container">
+        <div class="page-container-inner">
+        <pre><h3>
+            <a href="/" class="text">Главная</a>    <a href="/bio" class="text">Биография</a>    <a href="/about" class="text">About</a>    <a href="/galery" class="text">Галерея</a>
+        </h3></pre>
+        </div>
+    </div>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+
+    {% block body %}{% endblock %}
+</body>
+</html>
