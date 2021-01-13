@@ -15,6 +15,7 @@ div.page-container{
     margin: 0 auto;
     padding: 0;
     background-color: #151719;
+    text-align:center;
 }
 
 div.page-container-inner{
@@ -23,7 +24,9 @@ div.page-container-inner{
     margin: 0 auto;
     padding: 0;
     background-color: #151719;
+    text-align: center;
 }
+
 div.tableimg {
     width: 75%;
     height: 700px;
